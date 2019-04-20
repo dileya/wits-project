@@ -1,14 +1,14 @@
 $total-lines: 6;
-$left-offset: 29px;
-$clip-height: 110px;
+$left-offset: 15px;
+$clip-height: 130px;
 $line-height: $clip-height - 5px;
 .Words {
     margin: 0 auto;
-    padding: 80px 0;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 110px;
+    padding: 0px 0;
+    font-family: 'IBM Plex Sans';
+    font-size: 116px;
     font-weight: 700;
-    letter-spacing: -2px;
+    letter-spacing: -8px;
     text-transform: uppercase;
     transform: translate3d(0, 0, 0);
     -webkit-font-smoothing: antialiased;
@@ -25,8 +25,12 @@ $line-height: $clip-height - 5px;
       transform: skew(60deg, -30deg) scaleY(.66667);
     }
     &:nth-child(even) {
-      transform: skew(0deg, -30deg) scaleY(1.33333);
-    }
+      transform: skew(0deg, -30deg) scaleY(1.43333);
+      -webkit-transform: skew(0deg, -30deg) scaleY(1.43333);
+      -moz-transform: skew(0deg, -30deg) scaleY(1.43333);
+      -ms-transform: skew(0deg, -30deg) scaleY(1.43333);
+      -o-transform: skew(0deg, -30deg) scaleY(1.43333);
+}
     
     // Loop over the total lines and apply a left offset
     @for $i from 1 through $total-lines+1 {

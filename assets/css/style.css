@@ -1,10 +1,10 @@
 .Words {
   margin: 0 auto;
-  padding: 80px 0;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 110px;
+  padding: 0px 0;
+  font-family: 'IBM Plex Sans';
+  font-size: 116px;
   font-weight: 700;
-  letter-spacing: -2px;
+  letter-spacing: -8px;
   text-transform: uppercase;
   transform: translate3d(0, 0, 0);
   -webkit-font-smoothing: antialiased;
@@ -12,34 +12,38 @@
   -webkit-text-size-adjust: 100%; }
 
 .Words-line {
-  height: 110px;
+  height: 130px;
   overflow: hidden;
   position: relative; }
   .Words-line:nth-child(odd) {
     transform: skew(60deg, -30deg) scaleY(0.66667); }
   .Words-line:nth-child(even) {
-    transform: skew(0deg, -30deg) scaleY(1.33333); }
+    transform: skew(0deg, -30deg) scaleY(1.43333);
+    -webkit-transform: skew(0deg, -30deg) scaleY(1.43333);
+    -moz-transform: skew(0deg, -30deg) scaleY(1.43333);
+    -ms-transform: skew(0deg, -30deg) scaleY(1.43333);
+    -o-transform: skew(0deg, -30deg) scaleY(1.43333); }
   .Words-line:nth-child(1) {
-    left: 29px; }
+    left: 15px; }
   .Words-line:nth-child(2) {
-    left: 58px; }
+    left: 30px; }
   .Words-line:nth-child(3) {
-    left: 87px; }
+    left: 45px; }
   .Words-line:nth-child(4) {
-    left: 116px; }
+    left: 60px; }
   .Words-line:nth-child(5) {
-    left: 145px; }
+    left: 75px; }
   .Words-line:nth-child(6) {
-    left: 174px; }
+    left: 90px; }
   .Words-line:nth-child(7) {
-    left: 203px; }
+    left: 105px; }
 
 /*
   ** Fine-grained text styles
   */
 .Words-animation {
-  height: 110px;
-  line-height: 105px;
+  height: 130px;
+  line-height: 125px;
   padding: 0 10px;
   transition: all .4s ease-in-out;
   transform: translate3d(0, 0, 0);
@@ -50,4 +54,4 @@
   ** The hover interaction
   */
 .Words:hover p {
-  transform: translate3d(0, -110px, 0); }
+  transform: translate3d(0, -130px, 0); }

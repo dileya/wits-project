@@ -2,6 +2,8 @@ html,
 body {
     font-family: "IBM Plex Sans";
     width: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
 #page_one {
@@ -37,9 +39,11 @@ body {
     font-weight: bold;
     padding-left: 52px;
 }
+
 .actual {
     padding-left: 166px;
 }
+
 .ring {
     margin-left: 36px;
     margin-top: -10px;
@@ -78,6 +82,7 @@ a {
     word-spacing: 0.2em;
     padding-left: 1px;
 }
+
 .nav-link:hover {
     color: #B0140E;
 }
@@ -87,12 +92,73 @@ a {
     padding-left: 110px;
 
 }
+
 .actual .nav ul {
     margin: 0;
     padding: 0;
 }
+
 .animation {
-    background-color: #1D1D1D;
+    position: relative;
     color: white;
-    margin-top: -300px;
+    bottom: 230px;
+    left: -50px;
+}
+
+.btn-primary {
+    background-color: #B0140E;
+    border: 0px;
+    height: 60px;
+    width: 260px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 42px;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #1D1D1D;
+    border: 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.arrow-down {
+    position: relative;
+    left: 65px;
+    bottom: -35px;
+}
+.info {
+    position: relative;
+    bottom: 125px;
+    right: 90px;
+}
+
+h5 {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+h4 {
+    opacity: 0.2;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.mail {
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 34px;
 }
