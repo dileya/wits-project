@@ -164,6 +164,9 @@ h4 {
     line-height: 20px;
     margin-bottom: 34px;
 }
+.navbar2 {
+    margin-left: -100px;
+}
 
 .navhalf {
     transform: translate(0px, -878px);
