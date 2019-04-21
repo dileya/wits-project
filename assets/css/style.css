@@ -56,6 +56,3 @@
 .Words:hover p {
   transform: translate3d(0, -130px, 0); }
 
-#Stroke-1, #Stroke-2, #Stroke-3, #Stroke-4, #Stroke-5:hover {
-  transform: translate(-20px, 20px);
-}
