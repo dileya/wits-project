@@ -164,6 +164,7 @@ h4 {
     line-height: 20px;
     margin-bottom: 34px;
 }
+
 .navbar2 {
     margin-left: -100px;
 }
@@ -239,6 +240,7 @@ h3 {
     font-weight: 700;
     letter-spacing: -1px;
     line-height: 40px;
+    margin-bottom: 20px;
     transform: translateY(0px);
     animation: show1 3s 1;
     animation-fill-mode: forwards;
@@ -249,6 +251,7 @@ h3 {
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
 }
+
 @keyframes show1 {
     0% {
         transform: translateY(70px);
@@ -256,7 +259,7 @@ h3 {
         -moz-transform: translateY(70px);
         -ms-transform: translateY(70px);
         -o-transform: translateY(70px);
-}
+    }
 
 
     100% {
@@ -265,26 +268,33 @@ h3 {
         -moz-transform: translateY(0px);
         -ms-transform: translateY(0px);
         -o-transform: translateY(0px);
+    }
 }
-}
+
 .company_text {
     color: #1D1D1D;
     font-size: 16px;
     font-weight: 300;
-    line-height: 5px;
+    line-height: 8px;
+    text-wrap: nowrap;
     opacity: 0;
     transition: 1s;
     animation: show 3s 1;
     animation-fill-mode: forwards;
     animation-delay: 2s;
 }
+
 .icinfo {
+    position: relative;
+    top: 60px;
+    right: 35px;
     opacity: 0;
     transition: 1s;
     animation: show 3s 1;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
+
 @keyframes show {
     0% {
         opacity: 0;
@@ -305,20 +315,25 @@ h2 {
     padding: 20px;
 
 }
+
 .wrap_anim {
     transition: 1s;
     animation: show3 3s 1;
     animation-fill-mode: forwards;
     animation-delay: 3s;
     -webkit-animation: show3 3s 1;
-    position:absolute;
+    position: absolute;
+    left: 0%;
+
 
 }
+
 @keyframes show3 {
     from {
-        left: -100%;         
+        left: -50%;
     }
+
     to {
-        left:20%;
+        left: 0%;
     }
 }
